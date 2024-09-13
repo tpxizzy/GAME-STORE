@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4e0092;
+    padding: 20px;
+}
+
+.headerum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo{
+    margin: 0 auto;
+    display: flex;
+}
+
+span{
+    font-weight: bold;
+}
+.topo p{
+    font-size: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.topo img {
+    margin-right: 20px;
+    height: 50px;
+    margin-right: 25p;
+
+}
+
+.menu button {
+    background-color: #4e0092;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.menu button:hover {
+    background-color: white;
+    color: #4e0092;
+}
+
+main {
+    padding: 20px;
+}
+
+.bemvindo h1 {
+    text-align: center;
+    color: #4e0092;
+}
+
+.bemvindo img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: block;
+}
+
+.sobrenos h2{font-size: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.sobrenos p{
+padding-top: 20px; text-align: justify;
+width: 950px;
+margin: 0 auto;
+line-height: 1.5;
+}
+
+.sobrenos span{
+background-color: #9d34e7;
+}
+
+.maisvendidos {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.maisvendidos h2 {
+    color: #4e0092;
+    margin-bottom: 20px;
+}
+
+.tabela{
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    table {
+        width: 80%; 
+        margin: 0 auto; 
+        border-collapse: collapse;
+    }
+    
+    table, th, td {
+        border: 1px solid #000;
+    }
+    
+    thead {
+        background-color: #4b0082;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+        color: white;
+    }
+    
+    th {
+        background-color: #646464;
+    }
+    
+    tbody tr:nth-child(odd) {
+        background-color: #895fb6; 
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #4b0082; 
+    }
+}
+footer {
+    background-color: #4e0092;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
